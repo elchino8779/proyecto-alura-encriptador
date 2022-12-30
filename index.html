@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Encriptador Alura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="imagenes/logo.png" alt="Logo">
+        <div class="contenido">
+            <div class="izquierda">
+                <div class="contenido-izquierda">
+                    <div class="cartel">
+                        <div class="imagen-cartel"><img src="/imagenes/error.png" alt="Exclamacion"></div>
+                        <div class="leyenda-cartel"></div>
+                    </div>
+                    <textarea name="area-de-texto" id="area-de-texto" cols="40" rows="20"
+                        placeholder="Ingrese su texto aqui"></textarea>
+                    <div class="leyenda-botones">
+                        <div class="leyenda">
+                            <img src="imagenes/explamacion.png" alt="Exclamacion">
+                            <p>Solo letras minúsculas y sin acentos</p>
+                        </div>
+                        <div class="botones">
+                            <button id="encriptar">Encriptar</button>
+                            <button id="desencriptar">Desencriptar</button>
+                            <button id="borrar">Borrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="derecha">
+                <div class="contenido-derecha">
+                    <div id="display-free">
+                        <div class="imagen-buscar"><img src="imagenes/imagen2.jpg" alt=""></div>
+                        <p>Ningún mensaje fue encontrado</p>
+                        <p>Ingrese el texto que desees encriptar o desencriptar.</p>
+                    </div>
+
+                    <div id="display-none">
+                        <div id="resultado-texto"></div>
+                        <button id="copiar"><span id="texto-boton-copiar">Copiar</span></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer> <a href="https://www.linkedin.com/in/andresgomez87" target="_blank">linkedin.com/in/andresgomez87</a></footer>
+    </header>
+    <script src="script.js"></script>
+</body>
+
+</html>
