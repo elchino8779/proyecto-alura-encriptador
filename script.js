@@ -29,6 +29,8 @@ function encriptar() {
     let resultado = "";
     let valor = insertarTexto.value;
     let concidencia = false;
+    let letraActual = 0;
+    let letraMayuscula = 1;
 
     if (valor != undefined) {
 
@@ -101,6 +103,8 @@ function desencriptar() {
     let resultado = "";
     let valor = insertarTexto.value;
     let concidencia = false;
+    let letraActual = 0;
+    let letraMayuscula = 1;
 
     if (valor != undefined) {
 
