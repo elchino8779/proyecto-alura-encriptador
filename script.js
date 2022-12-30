@@ -34,7 +34,7 @@ function encriptar() {
 
         for (let i = 0; i < valor.length; i++) {
 
-            if (valor[i] != " ") || (valor[i] != "!") {
+            if ((valor[i] != " ") || (valor[i] != "!")) {
                 letraActual = valor[i];
                 letraMayuscula = valor[i].toUpperCase();
             }
@@ -106,7 +106,7 @@ function desencriptar() {
 
         for (let i = 0; i < valor.length; i++) {
 
-            if (valor[i] != " ")  || (valor[i] != "!") {
+            if ((valor[i] != " ")  || (valor[i] != "!")) {
                 letraActual = valor[i];
                 letraMayuscula = valor[i].toUpperCase();
             }
