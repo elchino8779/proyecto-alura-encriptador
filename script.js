@@ -22,8 +22,6 @@ let cartel = document.querySelector(".cartel");
 
 let leyendaCartel = document.querySelector(".leyenda-cartel");
 
-let imagenCartel = document.querySelector(".imagen-cartel");
-
 
 // Funciones
 
@@ -44,7 +42,6 @@ function encriptar() {
             if ((letraActual === letraMayuscula) || (letraActual === "á") || (letraActual === "é") || (letraActual === "í") || (letraActual === "ó") || (letraActual === "ú") || (letraActual === "Á") || (letraActual === "É") || (letraActual === "Í") || (letraActual === "Ó") || (letraActual === "Ú")) {
                 concidencia = true;
                 leyendaCartel.innerText = `No estan permitidas las letras mayúsculas, tampoco los acentos. Caracter encontrado "${valor[i]}"`;
-                imagenCartel.innerHTML = '<img src="/imagenes/error-mayusculas-acentos.png"></img>';
                 break;
             }
         };
@@ -117,7 +114,6 @@ function desencriptar() {
             if ((letraActual === letraMayuscula) || (letraActual === "á") || (letraActual === "é") || (letraActual === "í") || (letraActual === "ó") || (letraActual === "ú") || (letraActual === "Á") || (letraActual === "É") || (letraActual === "Í") || (letraActual === "Ó") || (letraActual === "Ú")) {
                 concidencia = true;
                 leyendaCartel.innerText = `No estan permitidas las letras mayúsculas, tampoco los acentos. Caracter encontrado "${valor[i]}"`;
-                imagenCartel.innerHTML = '<img src="/imagenes/error-mayusculas-acentos.png"></img>';
                 break;
             }
         };
