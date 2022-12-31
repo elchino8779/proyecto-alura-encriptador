@@ -37,7 +37,7 @@ header {
 }
 
 .cartel{
-    width: 300px;
+    width: 340px;
     height: 100px;
     background: #ffffff8c;
     border: solid 2px #0a3871;
@@ -51,14 +51,24 @@ header {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    gap: 20px;
+    gap: 10px;
     transition: 0.2s;
     opacity: 0;
     z-index: 0;
 }
 
+.leyenda-imagen{
+    width: 60px;
+    height: 60px;
+}
+
+.leyenda-imagen img{
+    width: 60px;
+}
+
 .leyenda-cartel{
     color: #0a3871;
+    text-align: center;
 }
 
 #area-de-texto {
