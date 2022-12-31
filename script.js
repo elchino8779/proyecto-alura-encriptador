@@ -45,7 +45,7 @@ function encriptar() {
 
             if ((letraActual === letraMayuscula) || (letraActual === "á") || (letraActual === "é") || (letraActual === "í") || (letraActual === "ó") || (letraActual === "ú") || (letraActual === "Á") || (letraActual === "É") || (letraActual === "Í") || (letraActual === "Ó") || (letraActual === "Ú")) {
                 concidencia = true;
-                leyendaImagen.innerHTML = '<img src="/imagenes/error.png">';
+                leyendaImagen.innerHTML = '<img src="imagenes/logo.png">';
                 leyendaCartel.innerText = `No estan permitidas las letras mayúsculas, tampoco los acentos. Caracter encontrado "${valor[i]}"`;
                 break;
             }
@@ -120,7 +120,7 @@ function desencriptar() {
 
             if ((letraActual === letraMayuscula) || (letraActual === "á") || (letraActual === "é") || (letraActual === "í") || (letraActual === "ó") || (letraActual === "ú") || (letraActual === "Á") || (letraActual === "É") || (letraActual === "Í") || (letraActual === "Ó") || (letraActual === "Ú")) {
                 concidencia = true;
-                leyendaImagen.innerHTML = '<img src="/imagenes/error.png">';
+                leyendaImagen.innerHTML = '<img src="imagenes/logo.png">';
                 leyendaCartel.innerText = `No estan permitidas las letras mayúsculas, tampoco los acentos. Caracter encontrado "${valor[i]}"`;
                 break;
             }
