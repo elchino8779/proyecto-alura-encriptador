@@ -22,6 +22,8 @@ let cartel = document.querySelector(".cartel");
 
 let leyendaCartel = document.querySelector(".leyenda-cartel");
 
+let leyendaImagen = document.querySelector(".leyenda-imagen")
+
 
 // Funciones
 
@@ -43,6 +45,7 @@ function encriptar() {
 
             if ((letraActual === letraMayuscula) || (letraActual === "á") || (letraActual === "é") || (letraActual === "í") || (letraActual === "ó") || (letraActual === "ú") || (letraActual === "Á") || (letraActual === "É") || (letraActual === "Í") || (letraActual === "Ó") || (letraActual === "Ú")) {
                 concidencia = true;
+                leyendaImagen.innerHTML = '<img src="/imagenes/imagen-error.png">'
                 leyendaCartel.innerText = `No estan permitidas las letras mayúsculas, tampoco los acentos. Caracter encontrado "${valor[i]}"`;
                 break;
             }
@@ -117,6 +120,7 @@ function desencriptar() {
 
             if ((letraActual === letraMayuscula) || (letraActual === "á") || (letraActual === "é") || (letraActual === "í") || (letraActual === "ó") || (letraActual === "ú") || (letraActual === "Á") || (letraActual === "É") || (letraActual === "Í") || (letraActual === "Ó") || (letraActual === "Ú")) {
                 concidencia = true;
+                leyendaImagen.innerHTML = '<img src="/imagenes/imagen-error.png">'
                 leyendaCartel.innerText = `No estan permitidas las letras mayúsculas, tampoco los acentos. Caracter encontrado "${valor[i]}"`;
                 break;
             }
