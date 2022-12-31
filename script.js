@@ -36,7 +36,7 @@ function encriptar() {
 
         for (let i = 0; i < valor.length; i++) {
 
-            if ((valor[i] != " ") && (valor[i] != "!")) {
+            if ((valor[i] != " ") && (valor[i] != "!") && (valor[i] != "¡") && (valor[i] != '"') && (valor[i] != ".") && (valor[i] != ",") && (valor[i] != ";") && (valor[i] != "¿") && (valor[i] != "?") && (valor[i] != "(") && (valor[i] != ")") && (valor[i] != "-") && (valor[i] != ":") && (valor[i] != "#") && (valor[i] != "$") && (valor[i] != "%") && (valor[i] != "=") && (valor[i] != "+") && (valor[i] != "*") && (valor[i] != "_") && (valor[i] != "/") && (valor[i] != "[") && (valor[i] != "]") && (valor[i] != "{") && (valor[i] != "}") && (valor[i] != "0") && (valor[i] != "1") && (valor[i] != "2") && (valor[i] != "3") && (valor[i] != "4") && (valor[i] != "5") && (valor[i] != "6") && (valor[i] != "7") && (valor[i] != "8") && (valor[i] != "9")) {
                 letraActual = valor[i];
                 letraMayuscula = valor[i].toUpperCase();
             }
@@ -110,7 +110,7 @@ function desencriptar() {
 
         for (let i = 0; i < valor.length; i++) {
 
-            if ((valor[i] != " ") && (valor[i] != "!")) {
+            if ((valor[i] != " ") && (valor[i] != "!") && (valor[i] != "¡") && (valor[i] != '"') && (valor[i] != ".") && (valor[i] != ",") && (valor[i] != ";") && (valor[i] != "¿") && (valor[i] != "?") && (valor[i] != "(") && (valor[i] != ")") && (valor[i] != "-") && (valor[i] != ":") && (valor[i] != "#") && (valor[i] != "$") && (valor[i] != "%") && (valor[i] != "=") && (valor[i] != "+") && (valor[i] != "*") && (valor[i] != "_") && (valor[i] != "/") && (valor[i] != "[") && (valor[i] != "]") && (valor[i] != "{") && (valor[i] != "}") && (valor[i] != "0") && (valor[i] != "1") && (valor[i] != "2") && (valor[i] != "3") && (valor[i] != "4") && (valor[i] != "5") && (valor[i] != "6") && (valor[i] != "7") && (valor[i] != "8") && (valor[i] != "9")) {
                 letraActual = valor[i];
                 letraMayuscula = valor[i].toUpperCase();
             }

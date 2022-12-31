@@ -318,12 +318,39 @@ footer{
         width: 90%;
     }
 
+    #encriptar:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    #encriptar:active {
+        transform: scale(0.95);
+    }
+
     #desencriptar{
         width: 90%;
     }
 
+    #desencriptar:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    #desencriptar:active {
+        transform: scale(0.95);
+    }
+
     #borrar{
         width: 50%;
+    }
+
+    #borrar:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    #borrar:active {
+        transform: scale(0.95);
     }
 
     #area-de-texto{
@@ -411,6 +438,35 @@ footer{
     #copiar{
         margin-top: 30px;
         margin-bottom: 20px;
+    }
+
+    
+
+    #encriptar:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    #encriptar:active {
+        transform: scale(0.95);
+    }
+
+    #desencriptar:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    #desencriptar:active {
+        transform: scale(0.95);
+    }
+
+    #borrar:hover {
+        transform: none;
+        box-shadow: none;
+    }
+    
+    #borrar:active {
+        transform: scale(0.95);
     }
 
     }
