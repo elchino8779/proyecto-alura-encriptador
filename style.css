@@ -60,6 +60,7 @@ header {
 .leyenda-imagen{
     width: 60px;
     height: 60px;
+    border-radius: 10px;
 }
 
 .leyenda-imagen img{
