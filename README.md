@@ -21,6 +21,7 @@
         Encripta texto a traves de una clave<br>
         Desencripta texto a traves de la misma clave generada por el encriptador<br>
         No acepta letras mayusculas ni acentos<br>
+        Totalmente Responsivo<br>
 </div>
 
 ---
