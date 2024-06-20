@@ -4,10 +4,10 @@
 
 ---
 
-<div id="caracteristicas">
+<div id="datos">
     <h3>✔️ Datos:</h3>
     <p>
-        🔹 Este proyecto fue creado para la formacion Front-End de la plataforma <a href="https://www.aluracursos.com/" target="_blank">Alura Latam</a> <br>
+        🔹 Este proyecto fue creado para la formación Front-End de la plataforma <a href="https://www.aluracursos.com/" target="_blank">Alura Latam</a> <br>
         🔹 Desarrollado en HTML, CSS y JavaScript <br>
         🔹 Encripta y desencripta textos
     </p>
@@ -16,11 +16,11 @@
 ---
 
 <div id="caracteristicas">
-    <h3>⚙️ Caracteristicas:</h3>
+    <h3>⚙️ Características:</h3>
     <p>
         🔸 Encripta texto a traves de una clave<br>
         🔸 Desencripta texto a traves de la misma clave generada<br>
-        🔸 No acepta letras mayusculas ni acentos<br>
+        🔸 No acepta letras mayúsculas ni acentos<br>
         🔸 Totalmente Responsivo<br>
     </p>
 </div>
@@ -39,5 +39,3 @@
     <br>
     <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/EncriptadorAlura/img05.png?raw=true" alt="Cap5" width="800">
 </div>
-
-
